@@ -430,7 +430,7 @@ class Main:
 			os.system("xdg-open you")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;37m    Type Your Channel Name")
+			print("\033[1;37m    Type Your APPROVAL")
 			print("")
 			input("\n\033[1;32m  Type Name \033[1;34m━━>  \033[1;33m")
 			time.sleep(2.1)
@@ -482,7 +482,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] Ex FOR Old IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
@@ -913,7 +913,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] Ex FOR Old IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
